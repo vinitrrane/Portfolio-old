@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Main start -->
+
+    <div class="main">
+
+        <!-- Navbar start -->
+
+        <div class="navbar">
+
+            <div class="navmode">
+                <span><i class="fa-solid fa-toggle-off"></i></span>
+            </div>
+            <div class="navlogo">
+                <a href="#home">VR</a>
+            </div>
+            <div class="navicon" onclick="expandNav()">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <ul class="navmenu">
+                <li class="closeicon" onclick="expandNav()"><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="#home" class="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Navbar end -->
+
+        <!-- Home start -->
+
+        <div class="home" id="home">
+
+            <div class="container">
+
+                <div class="homehead">
+
+                    <h1>&lt; <span class="typing" id="typed"></span> &gt;</h1>
+
+                    <p>Front end developer who writes clean, elegant and efficient code.</p>
+
+                    <div class="homebutton">
+
+                        <a href="#contact">Contact Me</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Home end -->
+
+        <!-- About start -->
+
+        <div class="about" id="about">
+
+            <div class="container">
+
+                <div class="abouthead">
+
+                    <h1>about</h1>
+
+                    <p>I'm a Front end developer based in Mumbai, India.</p>
+
+                </div>
+
+                <div class="aboutinfo">
+
+                    <div class="aboutpic">
+                        <img src="img/coverb.png" alt="" srcset="">
+                    </div>
+
+
+                    <p>I have been developing websites for
+                        over 6
+                        months. I'm a Front end developer.
+                        The technologies I
+                        use are HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACTS JS.
+                        I create responsive websites that are displayed
+                        on all devices
+                        desktops and smartphones.</p>
+
+                    <a href="#about">Download Resume</a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <!-- About end -->
+
+        <!-- Resume start -->
+
+        <div class="resume" id="resume">
+
+            <div class="container">
+
+                <div class="resumehead">
+                    <h1>Resume</h1>
+                    <p>Education & Experience</p>
+                </div>
+
+                <div class="resumediv">
+
+                    <div class="resumecardsleft">
+                        <div class="markerleft"></div>
+                        <div class="resumecard">
+                            <h3>SSC</h3>
+                            <h4>Aadarsh Vidyalaya</h4>
+                            <h5>2011</h5>
+                        </div>
+
+                    </div>
+                    <div class="resumecardsright">
+                        <div class="markerright"></div>
+                        <div class="resumecard">
+                            <h3>HSC</h3>
+                            <h4>Valia College</h4>
+                            <h5>2015</h5>
+                        </div>
+                    </div>
+                    <div class="resumecardsleft">
+                        <div class="markerleft"></div>
+                        <div class="resumecard">
+                            <h3>BSc Computer Science</h3>
+                            <h4>Lords Universal College</h4>
+                            <h5>2018</h5>
+                        </div>
+                    </div>
+                    <div class="resumecardsright">
+                        <div class="markerright"></div>
+                        <div class="resumecard">
+                            <h3>Process Associate</h3>
+                            <h4>Tata Consultancy Service</h4>
+                            <h5>2019-2020</h5>
+                            <p>Working for service desk technical process known as “Nice Administration” (Citi Bank US
+                                Project).
+                                Working on Nice Recording app, ticketing app such as Resolve IT & Service Now.
+                                Doing admin activities in NICE Application.
+
+                        </div>
+                    </div>
+                    <div class="resumecardsleft">
+                        <div class="markerleft"></div>
+                        <div class="resumecard">
+                            <h3>Backup Team Lead</h3>
+                            <h4>Tata Consultancy Service</h4>
+                            <h5>2020-Present</h5>
+                            <p>Managing the team of 5 members and function as Backup Team Leader.
+                                Maintaining documents for internal & external audits.
+                                Consolidating monthly MIS & preparing other monthly & quarterly required reports.
+                                Giving process training to new hires & help team members to solve their queries.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Resume end -->
+
+        <!-- Portfolio start -->
+
+        <div class="portfolio" id="portfolio">
+
+            <div class="container">
+
+                <div class="portfoliohead">
+                    <h1>Portfolio</h1>
+                    <p>Projects & Applications</p>
+                </div>
+
+                <div class="portfoliodiv">
+
+                    <div class="project" id="modalImg1" href="#myModal1">
+                        <div class="projectimg">
+                            <img src="img/constra.png" alt="" href="#myModal1">
+                        </div>
+                        <h1>Constra</h1>
+                    </div>
+
+                    <div id="myModal1" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>Constra</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A effective construction website created using HTMl & CSS.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/Constra/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/Constra.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project" href="#myModal2">
+                        <div class="projectimg">
+                            <img src="img/startbs.png" alt="" id="modalImg2" href="#myModal2">
+                        </div>
+                        <h1>Start BS</h1>
+                    </div>
+                    <div id="myModal2" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>Start BS</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A simple website created using HTML, CSS & BOOTSTRAP.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/Start-BS/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/Start-BS.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project" href="#myModal3">
+                        <div class="projectimg">
+                            <img src="img/vendor.png" alt="" id="modalImg3" href="#myModal3">
+                        </div>
+                        <h1>Vendor</h1>
+                    </div>
+
+                    <div id="myModal3" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>Vendor</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A responisve shopping website created using HTML, CSS & BOOTSTRAP.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/Vendor/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/Vendor.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project" href="#myModal4">
+                        <div class="projectimg">
+                            <img src="img/stopwatch.png" alt="" id="modalImg4" href="#myModal4">
+                        </div>
+                        <h1>Stopwatch</h1>
+                    </div>
+
+                    <div id="myModal4" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>Stopwatch</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A simple stopwatch app created using HTML , CSS & Vanilla JS.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/Stopwatch/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/Stopwatch.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project" alt="#myModal5">
+                        <div class="projectimg">
+                            <img src="img/todolist.png" alt="" id="modalImg5" href="#myModal5">
+                        </div>
+                        <h1>To-Do List</h1>
+                    </div>
+
+                    <div id="myModal5" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>To-Do List</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A To-Do List app created using HTML, CSS & Vanilla JS.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/To-Do-List/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/To-Do-List.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="project" href="#myModal6">
+                        <div class="projectimg">
+                            <img src="img/calculator.png" alt="" id="modalImg6" href="#myModal6">
+                        </div>
+                        <h1>Calculator</h1>
+                    </div>
+
+                    <div id="myModal6" class="projectmodal">
+
+                        <div class="modalcontent">
+                            <div class="modalheader mflex">
+                                <h2>Calculator</h2>
+                                <span class="close"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+                            </div>
+                            <div class="modalbody mflex">
+                                <p>A simple calculator app created using HTML, CSS & Vanilla JS.</p>
+
+                            </div>
+                            <div class="modalfooter mflex">
+                                <a target="_blank" href="https://vinitrrane.github.io/Calculator/">Visit Website</a>
+                                <a target="_blank" href="https://github.com/vinitrrane/Calculator.git">Source
+                                    Code</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Portfolio end -->
+
+        <!-- Contact start -->
+
+        <div class="contact" id="contact">
+
+            <div class="container">
+
+                <div class="contacthead">
+                    <h1>Contact</h1>
+                    <p>Contact & Social</p>
+                </div>
+
+                <div class="contactdiv">
+                    <div class="contactform">
+
+                        <div class="contactname">
+                            <input class="halfname" type="text" placeholder="First Name">
+                            <input class="halfname" type="text" placeholder="Last Name">
+                        </div>
+
+                        <input type="email" placeholder="Email">
+
+                        <input type="subject" placeholder="Subject">
+
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Message"></textarea>
+
+                        <button>Submit</button>
+
+                    </div>
+
+                    <div class="contactinfo">
+
+                        <ul class="contactsocial">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <p>Copyright©2022 Vinit Rane | All Rights Reserved</p>
+
+                        <p>18-Kanchan Building, Ankur Society,
+                            BEST Nagar Marg, Goregaon WEST,
+                            Mumbai - 400104, Maharashtra, India<br>
+
+                        </p>
+
+                        <button>7977133771</button>
+                        <button>vinitrrane@gmail.com</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!-- Contact end -->
+    </div>
+
+    <!-- Main start -->
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ['Developer', 'Coder'],
+            smartBackspace: true,// Default value
+            loop: true,
+            loopCount: Infinity,
+            typeSpeed: 60,
+            backSpeed: 60,
+            backDelay: 2000,
+        });
+
+    </script>
+</body>
+
+</html>
