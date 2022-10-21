@@ -39,25 +39,7 @@ function modeSwitch() {
 
 // Active Navlink section
 
-const navLink = document.querySelectorAll('.navmenu li a');
 
-const navItem = document.querySelectorAll('.navmenus li');
-
-// for (let n = 0; n < navLink.length; n++) {
-//     navLink[n].addEventListener('click', activeLink)
-
-
-
-//     function activeLink(e) {
-
-//         console.log(e.target.parentElement)
-//         if (e.target.className == "") {
-//             e.target.classList.add('activelink');
-//         }
-
-//     }
-//     navLink[n].classList.remove('activelink')
-// }
 
 
 // Modal section
@@ -105,3 +87,5 @@ window.onclick = function (e) {
         }
     }
 }
+
+
