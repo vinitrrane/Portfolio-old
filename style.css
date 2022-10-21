@@ -324,13 +324,19 @@ body.dark {
 
 
 @media only screen and (max-width:768px) {
-    /*  */
+    .home {
+        background-attachment: scroll;
+    }
 }
 
 
 /* Home Landscape MediaQuery */
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
+    .home {
+        background-attachment: scroll;
+    }
+
     .homehead h1 {
         font-size: 4rem;
     }
@@ -343,6 +349,10 @@ body.dark {
     .homebutton a {
         font-size: 1rem;
         padding: 1rem;
+    }
+
+    .home {
+        background-attachment: scroll;
     }
 }
 
@@ -1336,6 +1346,10 @@ body.dark {
 
 @media only screen and (max-width:768px) {
 
+    .contact {
+        background-attachment: scroll;
+    }
+
     .contacthead h1 {
         font-size: 2rem;
         margin-bottom: 1rem;
@@ -1405,6 +1419,9 @@ body.dark {
         padding: 0.5rem;
     }
 
+    .contact {
+        background-attachment: scroll;
+    }
 
 
 }
