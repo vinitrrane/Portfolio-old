@@ -40,6 +40,10 @@ function modeSwitch() {
 // Active Navlink section
 
 
+//Typed Js section
+
+
+
 
 
 // Modal section
