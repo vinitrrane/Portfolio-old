@@ -260,7 +260,7 @@ body.dark {
     justify-content: center;
     /* background-color: var(--color-background); */
     background: url(img/lightBg.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -572,7 +572,7 @@ body.dark {
     justify-content: center;
     background-color: var(--color-background);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
 }
 
@@ -1162,11 +1162,10 @@ body.dark {
     justify-content: center;
     background-color: var(--color-background);
     background: url(img/lightBg.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    `
 }
 
 .contacthead {
