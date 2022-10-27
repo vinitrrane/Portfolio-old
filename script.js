@@ -24,13 +24,13 @@ function modeSwitch() {
     document.querySelector('i').classList.toggle("fa-toggle-off")
 
     if (document.querySelector('.navmode span i').classList == "fa-solid fa-toggle-off") {
-        document.querySelector('.home').style.backgroundImage = "url(img/lightBg.jpg)";
-        document.querySelector('.contact').style.backgroundImage = "url(img/lightBg.jpg)";
+        document.querySelector('.home').style.backgroundImage = "url('./img/lightBg.jpg')";
+        document.querySelector('.contact').style.backgroundImage = "url('./img/lightBg.jpg')";
     }
     else {
 
-        document.querySelector('.home').style.backgroundImage = "url(img/darkBg.jpg)";
-        document.querySelector('.contact').style.backgroundImage = "url(img/darkBg.jpg)";
+        document.querySelector('.home').style.backgroundImage = "url('./img/darkBg.jpg')";
+        document.querySelector('.contact').style.backgroundImage = "url('./img/darkBg.jpg')";
     }
 
 

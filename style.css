@@ -259,7 +259,7 @@ body.dark {
     align-items: center;
     justify-content: center;
     /* background-color: var(--color-background); */
-    background: url(img/lightBg.jpg);
+    background: url(./img/lightBg.jpg);
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
@@ -1161,7 +1161,7 @@ body.dark {
     align-items: stretch;
     justify-content: center;
     background-color: var(--color-background);
-    background: url(img/lightBg.jpg);
+    background: url(./img/lightBg.jpg);
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
