@@ -258,9 +258,9 @@ body.dark {
     flex: 0 0 100%;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--color-background); */
+    background-color: var(--color-background);
     background: url(./img/lightBg.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -1162,7 +1162,7 @@ body.dark {
     justify-content: center;
     background-color: var(--color-background);
     background: url(./img/lightBg.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
